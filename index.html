@@ -6,7 +6,19 @@
     <title>PROG209-HW</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+  <h1>Movie Ratings</h1>
   <body>
+<form action="/action_page.php">
+  <label for="name">Name of movie</label>
+  <input type="title" id="namee" name="name">
+  <p>
+  <label for="quantity"> Rating (1-5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  </p>
+  <button name="subject" type="submit" value="Add Movie">Add Movie</button>
+  <button name="subject" type="submit2" value="Show Movies">Show Movies</button>
+</form>
+
     <script src="script.js"></script>
     <script src="movie.js"></script>
   </body>
