@@ -9,14 +9,14 @@
     <script src="movie.js"></script>
 </head>
   <body>
-      <h1>Movie Ratings</h1>
+      <h1 id="title">Movie Ratings</h1>
       <form name="mainForm" onsubmit="return false">
           <fieldset id="movieInfo">
               <legend>Please rate your movies</legend>
               <label for="name">Name of movie</label>
               <input type="text" id="name" name="name">
               <p>
-                  <label for="quantity"> Rating (1-5):</label>
+                  <label for="quantity"> Rating (1-5)</label>
                   <input type="number" id="quantity" name="quantity" min="1" max="5">
               </p>
               <button name="subject" type="submit" id="addMovie" value="Add Movie">Add Movie</button>
