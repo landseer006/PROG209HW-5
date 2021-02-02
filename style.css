@@ -1,3 +1,43 @@
-background{
-  color:beige
+fieldset {
+    background-color: darkseagreen;
+    border: 1px solid green;
+    /*float:left; */
+    margin: 10px 0px 100px 2.5%;
+    width: 46%;
+}
+
+legend {
+    background-color: mediumpurple;
+    color: white;
+    padding: 3px 0px;
+    text-indent: 5px;
+    width: 100%;
+}
+
+label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 4% 7px 5px;
+    width: 40%;
+}
+
+input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+}
+
+#title {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    text-shadow: 3px 3px purple;
+}
+
+#list {
+    color:blueviolet;
 }
