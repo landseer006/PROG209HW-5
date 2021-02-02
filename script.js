@@ -3,7 +3,6 @@
 •	The other button event cycles through each object in the array, and using each object’s .ToString() method, it lists all the movies out to the HTML page.  (You can use simple string concatenation, or a <ul> that you add <li> to, or a table, .. whatever you like.*/
 
 let movieArray = [];
-let movieInfo;
 
 document.addEventListener("DOMContentLoaded", function (event) {
     // disable the lower part of the form until we have user input for all values
